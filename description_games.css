@@ -1,0 +1,243 @@
+
+body{
+
+    margin: 0;
+    background-image: url(image/sfondo_reg.png);
+    background-size: cover;
+}
+
+#nav_description{
+    display: flex;
+    height: 100px;
+    opacity: 85%;
+    background-color: black;
+    justify-content: space-around;
+
+}
+
+@media (max-width: 500px) {
+  #nav_description {
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+#btn_home{
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    margin-top: 22px;
+      border:solid 3px  #990066	;
+      background-color: #E1E1E1	;
+      transition: all 150ms ease-in-out;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+}
+#btn_desideri{
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 22px;
+    height: 40px;
+      border:solid 3px  #990066	;
+      background-color: #E1E1E1	;
+      transition: all 150ms ease-in-out;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+}
+#btn_visualizza_desideri{
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    margin-top: 22px;
+      border:solid 3px  #990066	;
+      background-color: #E1E1E1	;
+      transition: all 150ms ease-in-out;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+}
+
+#btn_home:hover {
+    box-shadow: 0 0 10px 0 #990066	inset, 2px 0 10px 0px #990066	;
+  }
+  #btn_desideri:hover {
+    box-shadow: 0 0 10px 0 #990066	inset, 2px 0 10px 0px #990066	;
+  }
+  #btn_visualizza_desideri:hover {
+    box-shadow: 0 0 10px 0 #990066	inset, 2px 0 10px 0px #990066	;
+  }
+
+  @media (max-width: 500px) {
+    #btn_home,
+    #btn_desideri,
+    #btn_visualizza_desideri {
+      width: calc(33.30% - 20px);
+      margin: 10px;
+    }
+  }
+
+.contenitore_immagine{
+
+    display: flex;
+    justify-content: center;
+}
+
+.immagine_header{
+
+        width: 70%;
+}
+
+@media (max-width: 500px) {
+    
+  .immagine_header,
+  .screen_thumbnail {
+    width: 70%;
+  }
+}
+
+.gioco{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.descr{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media (max-width: 500px) {
+    
+  .descr{
+   width: 60%;
+    margin-left: 120px;
+  }
+}
+
+.contenitore_descrizione{
+
+    display: flex;
+    justify-content: center;
+}
+
+.descrizione_generale{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    width: 625px;
+}
+@media (max-width: 500px) {
+    
+  .descrizione_generale {
+    width: 70%;
+  }
+}
+
+.requisiti{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) { 
+ 
+  .requisiti{
+    width: 50%;
+    margin-left: 100px;
+  }
+}
+.contenitore_screen {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+
+  }
+
+  .screen_thumbnail{
+    border-style: solid;
+    border-radius: 80px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+  }
+  
+
+    
+  
+
+
+/* visualizza_wishlist.php*/
+
+#btn_indietro{
+
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  margin-top: 22px;
+    border:solid 3px  #990066	;
+    background-color: #E1E1E1	;
+    transition: all 150ms ease-in-out;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 300px;
+
+}
+
+#contenuto{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.desideri{
+
+background-color: white;
+margin-top: 30px;
+display: contents;
+
+
+}
+.nomi{
+
+  margin-bottom: 20px;
+}
+
+.btn_elimina{
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+    border:solid 3px  #990066	;
+    background-color: #E1E1E1	;
+    transition: all 150ms ease-in-out;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.vuoto{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+
+}
