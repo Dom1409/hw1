@@ -26,7 +26,7 @@ if (isset($_POST['nome']) && isset($_SESSION['user_id'])){
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta charset="utf-8">
-    <title>Home</title>
+    <title>Descrizione Gioco</title>
     <link rel="stylesheet" href="description_games.css ?ts=<?=time()?>&quot"/>
     
 </head>

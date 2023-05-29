@@ -5,7 +5,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta charset="utf-8">
-    <title>Home</title>
+    <title>Lista Desideri</title>
     <link rel="stylesheet" href="visualizza_wishlist.css ?ts=<?=time()?>&quot"/>
     
 </head>
