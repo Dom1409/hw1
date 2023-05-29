@@ -1,0 +1,103 @@
+
+body{
+
+    margin: 0;
+    background-image: url(image/sfondo_reg.png);
+    background-size: cover;
+}
+
+#nav_description{
+    display: flex;
+    height: 100px;
+    opacity: 85%;
+    background-color: black;
+    justify-content: space-around;
+
+}
+
+#btn_home{
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    margin-top: 22px;
+      border:solid 3px  #990066	;
+      background-color: #E1E1E1	;
+      transition: all 150ms ease-in-out;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+}
+
+
+#btn_indietro{
+
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    margin-top: 22px;
+      border:solid 3px  #990066	;
+      background-color: #E1E1E1	;
+      transition: all 150ms ease-in-out;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      margin-left: 300px;
+  
+  }
+  @media (max-width: 500px) {
+    
+    #btn_indietro{
+      margin-left: 26px;
+    }
+    }
+  .nomi{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #contenuto{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .desideri{
+  
+  background-color: white;
+  margin-top: 30px;
+  display: contents;
+  
+  
+  }
+  .nomi{
+  
+    margin-bottom: 20px;
+  }
+  
+  .btn_elimina{
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+      border:solid 3px  #990066	;
+      background-color: #E1E1E1	;
+      transition: all 150ms ease-in-out;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      margin-bottom: 20px;
+  
+  }
+  
+  .vuoto{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  
+  }
+  
+  @media (max-width: 500px) {
+    
+    .vuoto{
+      margin-left: 26px;
+    }
+    }
+
+ 
