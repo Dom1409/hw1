@@ -125,7 +125,7 @@ btn_indietro.addEventListener('click',ritorna_indietro);
 
 function ritorna_home(){
 
-    location.href="homerto.php";
+    location.href="home.php";
 }
 
 

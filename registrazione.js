@@ -22,7 +22,7 @@ const form=document.querySelector('#nome_form').addEventListener('submit', check
 
 function reg(){
 
-    location.href="login.php";
+    location.href="index.php";
 }
 
 

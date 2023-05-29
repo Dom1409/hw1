@@ -29,7 +29,7 @@
                         $_SESSION["session_username"] = $_POST['username'];
                         $_SESSION["user_id"] = mysqli_insert_id($conn);
                         mysqli_close($conn);
-                        header("Location: login.php");
+                        header("Location: index.php");
                         exit;
                     } else {
                         $error = true;
@@ -43,6 +43,9 @@
                 $error = true;
                 $error_message = "Nome utente già in uso!";
             }
+        }else{
+            $error=true;
+            $error_message="Compila tutti i campi";
         }
     }
 ?>

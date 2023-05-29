@@ -8,7 +8,7 @@ create table user(
     password varchar(30) not null
 )Engine = InnoDB;
 
-drop table user;
+
 
 
 create table lista_desideri(
@@ -17,7 +17,4 @@ create table lista_desideri(
     foreign key (id_user) references user(id) on update cascade
 )Engine = InnoDB;
 
-drop table lista_desideri;
 
-
-SELECT* FROM lista_desideri WHERE content->>'$.nome' is not null;
